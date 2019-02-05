@@ -6,11 +6,16 @@
 }
 
 h1 {
+  font-size: 2.5em;
   text-align: center;
+  padding-bottom: 5px;}
+
+
+.portfolio {
+  padding-bottom: 25px;
 }
 
-
-.links {
+.nav {
   text-align: center;
 }
 .main-header ul{
@@ -34,21 +39,43 @@ text-align: center;
   width: 70%;
   height: 70%;
 margin-top: 30px;
-padding-left: 15%;
+/* padding-left: 15%;
 padding-right: 15%;
+padding-bottom: 30px; */
+padding: 12px 15%;
 }
 
 p {
   text-align: center;
+  font-size: 25px;
 }
 
 h2 {
   padding-top: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 40px;
 }
 
-h2, h3 {
+h2,
+h3,
+h4 {
   text-align: center;
+}
+
+h3 {
+  font-size: 1.5em;
+  padding-top: 10px;
+}
+
+h4 {
+ font-size: 1.4em;
+ font-weight: bold;
+}
+
+H5 {
+  font-size: 1.2em;
+  display: inline-block;
+  position: absolute;
+  right: 10px;
 }
 
 img {
@@ -56,4 +83,25 @@ img {
   padding-left: 2.5%;
   padding-right: 2.5%;
   margin: auto;
+}
+
+.about-me li {
+  list-style: none;
+  font-size: 1.3em;
+  padding-bottom: 20px;
+}
+
+.about-me span {
+  font-weight: bolder;
+}
+
+footer h4 {
+  display: inline-block;
+
+}
+
+a {
+  text-decoration: none;
+    color: black
+    font-weight: bolder;
 }
