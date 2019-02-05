@@ -14,6 +14,10 @@ body {
   padding: 0;
 }
 
+.wrapper {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 
 .main-header {
@@ -160,12 +164,6 @@ a {
    font-weight: bolder;
 }
 
-.wrapper {
-  width: 90%;
-  margin: 0 auto;
-
-}
-
 hr {
   margin: 0;
   /* padding: 0; */
@@ -173,7 +171,4 @@ hr {
   border: solid 2px rgb(242,242,242);
 width: 95%;
 margin: 0 auto;
-}
-
-footer {
 }
