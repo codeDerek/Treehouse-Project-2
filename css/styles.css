@@ -175,6 +175,10 @@ width: 95%;
 margin: 0 auto;
 }
 
+.bottom-links {
+  display: inline-block;
+}
+
 
 @media (min-width: 768px) {
   .nav li {
@@ -188,7 +192,7 @@ margin: 0 auto;
 
   .profile {
     float: right;
-    width: 32%;
+    width: 38%;
     padding-right: 20px;
     padding-left: 10px;
     padding-top: 0;
@@ -220,6 +224,19 @@ img {
 width: 100%;
 }
 
+.about-me p {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.about-me h4 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.back-to-top {
+  display: none;
+}
 
 }
 
