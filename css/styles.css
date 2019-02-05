@@ -7,6 +7,10 @@ html,body
     overflow-x: hidden;
 }
 
+* {
+  padding-left: 5px;
+  padding-right: 5px;
+}
 
 body {
   background-color: #FFF;
@@ -14,10 +18,7 @@ body {
   padding: 0;
 }
 
-.wrapper {
-  padding-left: 10px;
-  padding-right: 10px;
-}
+
 
 
 .main-header {
@@ -52,6 +53,7 @@ h1 {
 
 .main-header ul {
   padding: 0;
+  margin-right: 30px;
 }
 
 .main-header li {
@@ -84,8 +86,8 @@ p {
   font-size: 25px;
   font-family: 'Cuprum', sans-serif;
   font-weight: lighter;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 h2 {
