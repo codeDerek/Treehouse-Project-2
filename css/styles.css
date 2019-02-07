@@ -295,8 +295,8 @@ margin: 0 auto;
   padding-left: 10px;
   padding-right: 10px;
   text-align: center;
-
   height: 442px;
+  vertical-align: top;
 }
 
 .portfolio p {
