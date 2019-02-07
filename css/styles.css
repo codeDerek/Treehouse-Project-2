@@ -115,12 +115,7 @@ h4 {
 }
 
 H5 {
-  font-size: 1.2em;
-  display: inline-block;
-float: right;
-padding-right: 15px;
 
-}
 
 img {
   width: 95%;
@@ -158,6 +153,7 @@ img {
 footer h4 {
   display: inline-block;
   padding-left: 15px;
+    font-size: 1em;
 }
 
 a {
@@ -174,6 +170,9 @@ width: 95%;
 margin: 0 auto;
 }
 
+.back-to-top {
+  float: right;
+}
 
 
 .bottom-links {
@@ -218,7 +217,7 @@ margin: 0 auto;
     font-size: 1.3em;
   }
 .main-header {
-  padding-bottom: 100px;
+  overflow: auto;
 }
 
 .portfolio {
@@ -227,6 +226,12 @@ margin: 0 auto;
   padding-left: 10px;
   padding-right: 10px;
   text-align: center;
+
+  height: 442px;
+}
+
+.portfolio p {
+
 }
 
 p {
@@ -249,12 +254,11 @@ width: 100%;
 
 .bottom-links {
   display: inline-block;
+  float: right;
 }
 
 .back-to-top {
-  display: inline-block;
-  font-size: .9em;
-  float: right;
+  display: none;
 }
 
 
@@ -277,7 +281,7 @@ padding-left: 20px;
 }
 
 .main-header {
-  padding-bottom: 200px;
+  overflow: auto;
 }
 
 .portfolio {
