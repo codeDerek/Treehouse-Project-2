@@ -5,28 +5,31 @@
   <meta charset="utf-8">
   <title>My Mockup</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cuprum|Josefin+Sans" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
-  <header class="main-header" class="clearfix" id="HOME">
+  <header class="main-header" id="HOME">
 <div class="nav">
       <h1>Derek Daisey</h1>
       <ul>
-        <li><a href="#HOME">HOME</a></li>
-        <li><a href="#portfolio-section">PORTFOLIO</a></li>
-        <li><a href="#contact">CONTACT</a></li>
+        <li class="home-button"><a href="#HOME">HOME</a></li>
+        <li class="portfolio-button"><a href="#portfolio-section">PORTFOLIO</a></li>
+<li class="skills-button"><a href="#skills-section">SKILLS</a></li>
+        <li class="contact-button"><a href="#contact">CONTACT</a></li>
+
       </ul>
     </div>
 
     <div class="intro">
       <img class="profile" src="images/responsive-layout-profile.png" alt="Image of Student">
-      <p class="bio"> Hi I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skil;ls to use! </p>
+      <p class="bio"> Hi I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use! </p>
       </div>
   </header>
 
+<div class="wrapper">
   <h2 id="portfolio-section">PORTFOLIO</h2>
 
   <div class="portfolio">
@@ -64,11 +67,20 @@
     <img src="images/portfolio-6.png" alt="Calculator image" class="">
     <h3>Calculator</h3>
     <p class="portfolio-6">Someone can enter in the numbers they want, and press the blue button and get a result.
+</p>  </div>
+</div>
 
+  <div class="skills" id="skills-section">
+    <h2>SKILLS</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Javascript</li>
+      <li>Songwriting</li>
+      <li>Music Production</li>
+      <li>Audio/Video Editing</li>
+    </ul>
 
-
-
-    </p>
   </div>
 
 
@@ -88,9 +100,11 @@
     <h4>Derek Daisey</h4>
 
     <h4 class="back-to-top"><a href="#HOME">BACK TO TOP</a></h4>
+    <h5 class="bottom-links"><a href="#contact">CONTACT</a></h5>
+    <h5 class="bottom-links"><a href="#skills-section">SKILLS</a></h5>
+    <h5 class="bottom-links"><a href="#portfolio-section">PORTFOLIO</a></h5>
       <h5 class="bottom-links"><a href="#HOME">HOME</a></h5>
-        <h5 class="bottom-links"><a href="#porfolio">PORTFOLIO</a></h5>
-          <h5 class="bottom-links"><a href="#CONTACT">CONTACT</a></h5>
+
 
   </footer>
 
