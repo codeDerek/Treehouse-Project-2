@@ -237,7 +237,8 @@ hr {
 }
 
 .wrapper {
-  margin: auto;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -282,11 +283,14 @@ hr {
   .portfolio {
     width: 45%;
     display: inline-block;
+    /*
+Removed to test impact. No drastic changes
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 10px; */
     text-align: center;
     height: 442px;
     vertical-align: top;
+
 
   }
 
@@ -345,7 +349,7 @@ hr {
   }
 
 .wrapper {
-  margin: 0 auto;
+margin-right: 20px;
 }
 
 }
@@ -386,6 +390,7 @@ hr {
 
   #portfolio-section {
     margin-top: 0;
+    text-align: center;
   }
 
   .portfolio p {
@@ -397,6 +402,8 @@ hr {
     margin-right: 15px; */
     BACKGROUND-COLOR: white;
     padding-top: 0;
+    margin-left: 20px;
+    padding-right: 20px;
   }
 
 
